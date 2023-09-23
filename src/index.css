@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Poppins&family=Unica+One&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #150e28;
+  color: white;
+}
+form {
+}
+input,
+textarea {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border: 1px solid #fff;
+  background-color: black;
+  outline: none;
+  padding: 12px;
+  color: #fff;
+}
+.drop-shadow {
+}
+input::placeholder {
+  color: white;
+}
+
+button {
+  background: none;
+  width: 24px;
+  height: 24px;
+}
+
+.border-gradient {
+  border: 1px solid;
+  border-image-slice: 1;
+}
+.border-gradient-purple {
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
+.hero,
+.rules,
+.criteria,
+.rewards {
+  background-image: url("./assets/Purple-Lens-Flare-PNG.png");
+  /* background-repeat: no-repeat; */
+}
+.second {
+  background-image: url("./assets/Purple-Lens-Flare-right\ PNG\ \(1\).png");
+}
+
+hr {
+  background-color: #ffffff2e;
+  color: #ffffff2e;
+}
+
+.flare-right {
+  background-image: url("./assets/Purple-Lens-Flare-right\ PNG\ \(1\).png");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.intro {
+  background-image: url("./assets/star.svg");
+  background-repeat: no-repeat;
+}
+.gradient-text {
+  background: linear-gradient(to right, #903aff, #ff26b9);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline;
+}
